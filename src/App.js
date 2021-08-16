@@ -7,7 +7,7 @@ import Bg from '../src/images/Bg.png'
 function App() {
   return (
     <div className="App" >
-       <h1>Bd Ride</h1>
+       
       <Header></Header>
      
     </div>

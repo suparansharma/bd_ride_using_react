@@ -1,10 +1,42 @@
-.BgImage img{
-    
-    background-attachment: fixed;
-    height: 610px;
-    width: 1800px ;
+.header{
+/* text-align: center; */
 }
 
-.BgImage h1{
-    
+.header nav{
+    /* background-color: orange; */
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 60%;
 }
+
+nav a{
+    text-decoration: none;
+    color:white;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+nav a:hover{
+    background-color: gray;
+}
+
+.header h1{
+    color:white;
+    margin-left: 10%;
+}
+
+
+
+@media (max-width: 900px) { .header nav{
+    /* background-color: orange; */
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 30%;
+}}
+
+@media (max-width: 700px) { .header nav{
+    /* background-color: orange; */
+    line-height: 40px;
+    font-size: 20px;
+    margin-left: 10%;
+}}
