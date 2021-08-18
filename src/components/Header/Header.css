@@ -40,3 +40,26 @@ nav a:hover{
     font-size: 20px;
     margin-left: 10%;
 }}
+
+
+.allCard img{
+    height:80%;
+    width:80%;
+    text-align: center;
+   
+    margin-left: 10%;
+
+}
+
+.allCard{
+
+    padding: 5px;
+    margin:10%;
+
+}
+
+.Card:hover{
+
+    background-color: gray;
+    
+}
